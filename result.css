@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.desk{
+    height: 50px;
+    width: 85px;
+    border: 2px solid white;
+    float: left;
+    margin: 0 1%;
+    border-radius: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+#setting{
+    width: 50%;
+    margin: 5% auto;
+}
+
+.chicken{
+    height: 30px;
+    margin: -4% 3.8%;
+}
+
+figcaption{
+    width: 85px;
+    height: 20px;
+    color: white;
+    font-family: serif;
+    display: table-caption;
+}
+
+.info{
+    text-align: center;
+}
+
+figure{    
+    width: 85px;
+    float: left;
+    text-align: center;
+    margin: 0px 1.32%;
+}
+
+h3{
+    margin-top: -5%;
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+    text-align: center;
+}
+
+#rool{
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    z-index: 3;
+    animation: rooling 1s linear infinite;
+}
+
+#loading{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 2;
+}
+
+@keyframes rooling {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

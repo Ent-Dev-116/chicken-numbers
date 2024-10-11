@@ -1,0 +1,60 @@
+img{
+    margin-top: -10%;
+    width: 50%;
+}
+
+.img{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    font-family:serif;
+    padding: 0.5em 0;
+    border-top: solid 3px #fff;
+    border-bottom: solid 3px #fff;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+h5{
+    font-family: serif;
+    margin: -29%;
+    color: black;
+    font-size: 350%;
+    text-align: center;
+}
+
+button{
+    margin: 28% 46%;
+    width: 100px;
+}
+
+#rool{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    z-index: 3;
+    animation: rooling 1s linear infinite;
+}
+
+#loading{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 2;
+}
+
+@keyframes rooling {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

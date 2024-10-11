@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chicken numbers</title>
+    <link rel="icon" href="./img/チキンナンバーズ.png">
+    <link rel="stylesheet" href="./postsite.css">
+</head>
+<body id="body">
+    <div id="post">
+        <h1>ようこそ、養鶏場へ。</h1>
+        <h3>君の檻はどこですか？</h3>
+        <div id="setting"></div>
+        <p id="button" onclick="next()">次へ</p>
+    </div>
+    <div id="chicken">
+        <h2>さぁ、あなたの商品番号を宣言しなさい。</h2>
+        <img src="./img/とりさん 透過.png">
+        <form method="post"
+            action="https://script.google.com/macros/s/AKfycbwKHLEx5KndgwdxyWe6pyGg72VJe43gUK5eb7-IimN6wRzijFutjc50bQcTLuIMxe4n/exec">
+            <select id="number" name="number"></select>
+            <input id="index" type="text" name="desk" style="display: none;">
+            <input type="submit" value="送信する" style="    position: absolute;
+            top: 63%;
+            right: 48%;">
+        </form>
+    </div>
+    <script src="./postsite.js"></script>
+</body>
+</html>
