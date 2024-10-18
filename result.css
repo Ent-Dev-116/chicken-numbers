@@ -17,7 +17,7 @@ body{
 }
 
 #setting{
-    width: 40%;
+    width: 50%;
     margin: 5% auto;
 }
 
@@ -39,10 +39,10 @@ figcaption{
 }
 
 figure{    
-    width: 85px;
+    width: 84px;
     float: left;
     text-align: center;
-    margin: 0px 1.25%;
+    margin: 0% 1.4%;
 }
 
 h3{
@@ -55,7 +55,7 @@ h3{
 
 #rool{
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 30%;
     z-index: 3;
     animation: rooling 1s linear infinite;
