@@ -17,7 +17,7 @@ body{
 }
 
 #setting{
-    width: 50%;
+    width: 40%;
     margin: 5% auto;
 }
 
@@ -55,7 +55,7 @@ h3{
 
 #rool{
     position: absolute;
-    top: 15%;
+    top: 10%;
     right: 30%;
     z-index: 3;
     animation: rooling 1s linear infinite;
