@@ -108,7 +108,11 @@ function result() {
             g("chicken" + i).src = "./img/禁止マーク.png";
         }
     }
-    g("number").innerText = minNumber[minNumber.length - 1];
+    if(minNumber[minNumber.length - 1]!=undefined){
+        g("number").innerText = "["+minNumber[minNumber.length - 1]+"]です";
+    }else{
+        g("number").innerText = "誰もいませんでした";
+    }
     $(g("numberContent")).animate({
         opacity: 1
     }, 500, function () {
