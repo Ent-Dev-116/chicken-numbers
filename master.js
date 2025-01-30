@@ -7,7 +7,7 @@ function g(s) {
 
 async function SetData() {
     Load(true);
-    const apiURL = "https://script.google.com/macros/s/AKfycbz5G5Hf-_SwtswYbs34MoB83Ik9w8QgNGBjtnbRxu0FblkNGpqrWcIcS3YC9Alb6GGS/exec"
+    const apiURL = "https://script.google.com/macros/s/AKfycbwLdwzTTVksvhKvuNvPU0wX7XhIi1i_rkxkNgNFaWNy1H17wdvepFYg0STFAtjz3uoV/exec"
     const response = await fetch(apiURL);
     const data = await response.json();
     console.log(data);
