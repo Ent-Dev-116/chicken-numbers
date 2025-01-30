@@ -50,7 +50,7 @@ function setting() {
 
     const select=g("number");
     let ele;
-    for(i=1;i<41;i++){
+    for(i=1;i<40;i++){
         ele=document.createElement("option");
         ele.innerText=i;
         ele.value=i;
